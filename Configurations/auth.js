@@ -1,8 +1,8 @@
 const auth = {
 	discord: {
-		clientID: "",
-		clientSecret: "",
-		clientToken: "",
+		clientID: "process.env.ID",
+		clientSecret: "process.env.SECRET",
+		clientToken: "process.env.TOKEN",
 	},
 	tokens: {
 		discordBotsOrg: "",
